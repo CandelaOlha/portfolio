@@ -213,14 +213,23 @@ html {
 
 .social-media-item {
     list-style-type: none;
-    margin-bottom: 10px;
 }
 
 .social-media-link {
+    align-items: center;
+    border-radius: 100px;
     color: #2e2e31;
-    padding: 2px 10px;
+    display: flex;
+    padding: 5px 10px;
     text-decoration: none;
 }
+
+/* Links en focus */
+
+.social-media-link:focus {
+    box-shadow: 0px 0px 7px #8338ec;
+}
+
 
 .social-media-link i {
     background-color: #fff;
