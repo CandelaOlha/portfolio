@@ -35,7 +35,7 @@ html {
     color: #616161;
     font-size: 16px;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* Estilos para todas las secciones */
@@ -45,4 +45,43 @@ html {
     display: flex;
     justify-content: center;
     padding: 80px 20px;
+}
+
+/* Menú de navegación: lo voy a estilar al final */
+
+.nav-menu {
+    display: none;
+}
+
+/* Estilos de la sección Sobre mí */
+
+.about-section {
+    flex-wrap: wrap;
+}
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction {
+    color: #2e2e31;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.cta {
+    background-color: #8338ec;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 210px;
+}
+
+.about-section img {
+    max-width: 500px;
 }
