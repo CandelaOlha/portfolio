@@ -102,7 +102,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1020px;
+    max-width: 840px;
 }
 
 .skill-card {
@@ -127,4 +127,29 @@ html {
 .skill-img {
     margin-bottom: 40px;
     max-width: 80px;
+}
+
+/* Estilos de la sección de frase */
+
+.quote-section {
+    background-color: #8338ec;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fa-quote-right {
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+
+.quote-text {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 840px;
+}
+
+.quote-author {
+    font-size: 24px;
 }
