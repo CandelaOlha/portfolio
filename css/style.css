@@ -190,3 +190,118 @@ html {
     margin-bottom: 10px;
     max-width: 200px;
 }
+
+/* Estilos de la sección de contacto */
+
+.contact-section {
+    background-color: #f6f7fb;
+}
+
+.contact-container {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    display: flex;
+    padding: 40px;
+    max-width: 1020px;
+}
+
+.contact-column {
+    width: 50%;
+    padding: 20px;
+}
+
+.social-media-item {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.social-media-link {
+    color: #2e2e31;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+
+.social-media-link i {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #8338ec;
+    font-size: 20px;
+    margin-right: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Links de redes sociales en hover */
+
+.social-media-link:hover {
+    color: #8338ec;
+}
+
+.social-media-link:hover > i {
+    background-color: #8338ec;
+    color: #fff;
+}
+
+/* Estilos del formulario de contacto */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form > div {
+    margin-bottom: 20px;
+}
+
+.name-input-container {
+    display: flex;
+}
+
+.half-size-form-control {
+    width: 50%;
+}
+
+.half-size-form-control:nth-child(1) {
+    padding-right: 2%;
+}
+
+.form-control label {
+    color: #2e2e31;
+    font-weight: 600;
+}
+
+input, textarea {
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+/* Estilos del input y del textarea en focus */
+
+input:focus, textarea:focus {
+    box-shadow: 0px 0px 7px #8338ec;
+}
+
+.submit-button {
+    background-color: #8338ec;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 32px;
+    width: 140px;
+}
+
+/* Botón en hover */
+
+.submit-button:hover {
+    background-color: #995cef;
+    cursor: pointer;
+}
