@@ -37,3 +37,12 @@ html {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+/* Estilos para todas las secciones */
+
+.section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
