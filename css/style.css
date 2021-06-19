@@ -305,3 +305,78 @@ input:focus, textarea:focus {
     background-color: #995cef;
     cursor: pointer;
 }
+
+/* Estilos del footer */
+
+footer {
+    background-color: #8338ec;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-nav-list {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-nav-item {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.footer-nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Links en focus */
+
+.footer-nav-link:focus {
+    box-shadow: 0px 0px 8px #fff;
+}
+
+.footer-social-media-icons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-social-media-item {
+    list-style-type: none;
+    margin: 10px;
+}
+
+/*El display:block; lo puse porque si no, no se veían bien los estilos en focus */
+
+.footer-social-media-link {
+    display: block;
+}
+
+.footer-social-media-item i {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #8338ec;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+/* Íconos de redes sociales en hover */
+
+.footer-social-media-item i:hover {
+    color: #fff;
+    background-color: #8338ec;
+    border: 1px solid #fff;
+}
+
+/* Íconos de redes sociales en focus */
+
+.footer-social-media-link:focus {
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #fff;
+}
+
+.credits {
+    color: #fff;
+}
