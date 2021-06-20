@@ -460,3 +460,98 @@ footer {
 .credits {
     color: #fff;
 }
+
+/* Estilos para tablets y celulares */
+
+/* Se oculta el menú de navegación y la sección Sobre mí se centra al medio */
+
+@media screen and (max-width: 1102px) {
+    .nav-menu {
+        display: none;
+    }
+    .about-section {
+        margin-top: 0;
+    }
+    .about-text-container {
+        align-items: center;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+/* La galería de proyectos se centra al medio */
+
+@media screen and (max-width: 1059px) {
+    .project-gallery {
+        justify-content: center;
+    }
+}
+
+/* La sección de contacto cambia a columnas */
+
+@media screen and (max-width: 900px) {
+    .contact-section {
+        background-color: transparent;
+    }
+    .contact-container {
+        border: none;
+        flex-direction: column;
+        padding: 0;
+    }
+    .contact-column {
+        padding: 0;
+        width: 100%;
+    }
+    .contact-details {
+        margin-bottom: 40px;
+    }
+    .social-media-links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social-media-item {
+        width: 50%;
+    }
+    .name-input-container {
+        flex-direction: column;
+    }
+    .half-size-form-control {
+        width: 100%;
+    }
+    .half-size-form-control:nth-child(1) {
+        margin-bottom: 20px;
+    }
+}
+
+/* Los ítems de redes sociales pasan a ocupar el 100% */
+
+@media screen and (max-width: 570px) {
+    .social-media-item {
+        width: 100%;
+    }
+}
+
+/* Se oculta el menú de navegación del footer y se achica el tamaño de los títulos */
+
+@media screen and (max-width: 480px) {
+    .footer-nav {
+        display: none;
+    }
+    .main-title {
+        font-size: 48px;
+    }
+    .section-title {
+        font-size: 36px;
+    }
+    .quote-text {
+        font-size: 18px;
+    }
+}
+
+/* Cambia el tamaño de las cards de proyecto */
+
+@media screen and (max-width: 320px) {
+    .project-card {
+        width: 260px;
+    }
+}
