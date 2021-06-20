@@ -147,7 +147,7 @@ html {
     width: 210px;
 }
 
-/* Estilos de CTA en hover */
+/* Estilos del CTA en hover */
 
 .cta:hover {
     background-color: #995cef;
@@ -345,8 +345,12 @@ html {
     width: 50%;
 }
 
-.half-size-form-control:nth-child(1) {
-    padding-right: 2%;
+.half-size-form-control:first-child {
+    padding-right: 5px;
+}
+
+.half-size-form-control:last-child {
+    padding-left: 5px;
 }
 
 .form-control label {
