@@ -57,8 +57,8 @@ html {
     background-color: #fff;
     box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
     display: flex;
-    justify-content: flex-end;
-    padding: 35px 200px;
+    justify-content: center;
+    padding: 35px 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -67,6 +67,8 @@ html {
 
 .nav-list {
     display: flex;
+    justify-content: flex-end;
+    width: 1020px;
 }
 
 .nav-item {
