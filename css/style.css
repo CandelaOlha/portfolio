@@ -77,10 +77,10 @@ html {
 }
 
 .nav-link {
-    color: #2e2e31;
-    text-decoration: none;
-    padding: 10px;
     border-radius: 100px;
+    color: #2e2e31;
+    padding: 10px;
+    text-decoration: none;
 }
 
 /* Links del menú en hover */
@@ -282,13 +282,13 @@ html {
     border: 1px solid #e0e0e0;
     border-radius: 15px;
     display: flex;
-    padding: 40px;
     max-width: 1020px;
+    padding: 40px;
 }
 
 .contact-column {
-    width: 50%;
     padding: 40px;
+    width: 50%;
 }
 
 .social-media-item {
