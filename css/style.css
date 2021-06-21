@@ -99,7 +99,7 @@ html {
     background-color: #8338ec;
     border-radius: 30px;
     color: #fff;
-    padding: 12px 32px;
+    padding: 14px 32px;
     text-align: center;
 }
 
@@ -141,7 +141,7 @@ html {
     border-radius: 30px;
     color: #fff;
     font-weight: 500;
-    padding: 12px 32px;
+    padding: 14px 32px;
     text-align: center;
     text-decoration: none;
     width: 210px;
@@ -364,7 +364,7 @@ html {
     font-weight: 600;
 }
 
-input, textarea {
+.form-control-element {
     background-color: #f6f7fb;
     border: 1px solid #f6f7fb;
     border-radius: 20px;
@@ -377,17 +377,18 @@ input, textarea {
 
 /* Estilos del input y del textarea en focus */
 
-input:focus, textarea:focus {
+.form-control-element:focus {
     box-shadow: 0px 0px 7px #8338ec;
 }
 
 .submit-button {
     background-color: #8338ec;
+    border: none;
     border-radius: 30px;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    padding: 16px 32px;
+    padding: 14px 32px;
     width: 140px;
 }
 
@@ -396,6 +397,13 @@ input:focus, textarea:focus {
 .submit-button:hover {
     background-color: #995cef;
     cursor: pointer;
+}
+
+/* Botón en focus */
+
+.submit-button:focus {
+    background-color: #6314d1;
+    box-shadow:0px 0px 7px #8338ec;
 }
 
 /* Estilos del footer */
