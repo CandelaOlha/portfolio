@@ -288,7 +288,7 @@ html {
 
 .contact-column {
     width: 50%;
-    padding: 20px;
+    padding: 40px;
 }
 
 .social-media-item {
@@ -509,7 +509,7 @@ footer {
 
 /* La sección de contacto cambia a columnas */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .contact-section {
         background-color: transparent;
     }
