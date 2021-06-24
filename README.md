@@ -1,4 +1,4 @@
-![Rocket gif](https://github.com/CandelaOlha/portfolio/blob/main/images/rocket.gif)
+![Rocket gif](https://github.com/CandelaOlha/portfolio/blob/main/images/rocket.gif =85x300)
 
 # Portfolio
 
@@ -8,7 +8,7 @@ This is the first project I did for the [ADA ITW](https://adaitw.org/) Frontend 
 
 The purpose of this website is to introduce myself and show my first work as a junior frontend developer.
 
-Since I haven't learned Javascript yet, this project is only made using HTML and CSS.
+Since I haven't learned Javascript yet, this project was only made using HTML and CSS.
 
 ## Technologies
 
