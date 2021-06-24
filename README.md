@@ -1,4 +1,4 @@
-![Rocket gif](https://github.com/CandelaOlha/portfolio/blob/main/images/rocket.gif =85x300)
+![Rocket gif](https://github.com/CandelaOlha/portfolio/blob/main/images/rocket.gif)
 
 # Portfolio
 
