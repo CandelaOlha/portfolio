@@ -1,4 +1,4 @@
-![Rocket gif] (images/rocket.gif)
+![Rocket gif] (https://github.com/CandelaOlha/portfolio/blob/main/images/rocket.gif)
 
 # Portfolio
 
@@ -19,6 +19,6 @@ Since I haven't learned Javascript yet, this project is only made using HTML and
 
 - [Google Fonts] (https://fonts.google.com/) for typography
 - [Font awesome] (https://fontawesome.com/) for icons
-- [unDraw] (https://undraw.co/illustrations) for SVG images
+- [unDraw] (https://undraw.co/illustrations/) for SVG images
 
 You can see this project following this link: [https://candelaolha.github.io/portfolio/] (https://candelaolha.github.io/portfolio/)
