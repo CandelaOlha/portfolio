@@ -12,8 +12,8 @@ Since I haven't learned Javascript yet, this project was only made using HTML an
 
 ## Technologies
 
-- HTML 5
-- CSS 3
+- HTML
+- CSS
 
 ## Design resources
 
